@@ -1,0 +1,394 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Netflix-landing</title>
+    <link rel="stylesheet" href="./landing.css" />
+    <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.14.0/css/all.css" integrity="sha384-HzLeBuhoNPvSl5KYnjx0BT+WB0QEEqLprO+NBkkk5gbc67FTaL7XIGa2w1L0Xbgc" crossorigin="anonymous">
+</head>
+<body>
+    <div id="main-section">
+        <header id="top-bar">
+            <div id="logo"><img src='https://www.freepnglogos.com/uploads/netflix-logo-0.png' alt="logo" /></div>
+            <div id="menu">
+                <div id="top-left">
+                    <nav id="left-nav">
+                        <p id="active">Home</p>
+                        <p>TV shows</p>
+                        <p>Movies</p>
+                        <p>Latest</p>
+                        <p>My List</p>
+                    </nav> 
+                </div>
+                <div id="top-right">
+                    <nav id="right-nav">
+                        <i class="fas fa-search"></i>
+                        <p>CHILDREN</p>
+                        <i class="fas fa-gift first-2"></i>
+                        <i class="fas fa-bell"></i>
+                        <img src='https://i.pinimg.com/474x/c3/53/7f/c3537f7ba5a6d09a4621a77046ca926d.jpg' alt="profile-pic" />
+                        <i class="fas fa-caret-down"></i>
+                    </nav>
+                </div> 
+            </div>   
+        </header>
+        <section id="video-section">
+            <!-- <video id="video" src="https://r1---sn-h557snl6.c.drive.google.com/videoplayback?expire=1598022623&ei=n6s_X-eEGpCCuAKbr7uoBA&ip=112.133.236.113&cp=QVNOWkFfUVZQRFhOOjBmcVV0eDdTcXZvU1VHUEdlWUtwVDlBUnpRQk8tREJOemJuWFpOajJDcjQ&id=7a72d746b40add31&itag=22&source=webdrive&requiressl=yes&mh=9z&mm=32&mn=sn-h557snl6&ms=su&mv=m&mvi=1&pl=24&sc=yes&ttl=transient&susc=dr&driveid=1ut4BrcGDstnSMOTYSYT9E40Ud2QFwDWg&app=texmex&mime=video/mp4&vprv=1&prv=1&dur=95.410&lmt=1598007628674662&mt=1598008116&sparams=expire,ei,ip,cp,id,itag,source,requiressl,ttl,susc,driveid,app,mime,vprv,prv,dur,lmt&sig=AOq0QJ8wRQIgETKflGpUV3oKgshWmKQC_ISgmS8yp9-44T87p_tMskQCIQDN0jlEmo40MntFhU23jwmGi6iz-L8IiVD1neEzSuqZqQ==&lsparams=mh,mm,mn,ms,mv,mvi,pl,sc&lsig=AG3C_xAwRAIgXrin7bJwifF6WvJLJlMZEAceXAvNM0tHCFBp6jD1g4gCICEZtTts_jqlf4kllbcETOG93KZDBrS11GpZyBXXzli3&cpn=JcfDPKxSeY1YSIxu&c=WEB_EMBEDDED_PLAYER&cver=20200820" autoplay loop>
+
+                
+            </video>  -->
+            <!-- <iframe id="video" src="https://player.vimeo.com/video/450039794&showinfo=0" frameborder="0" allow="autoplay; fullscreen" allowfullscreen></iframe> -->
+            <video id="video" autoplay loop>
+                <source src="./videos/breaking_bad_trailer.mp4" type="video/mp4">
+            </video> 
+            <div id="desc">
+                <div id="n-logo"><img src="https://logos-world.net/wp-content/uploads/2020/04/Netflix-Symbol.png"><p>series</p></div>
+                <img src="https://content.cpcache.com/popup/img/breakingbad-large-logo.png">
+            </div>
+            <a href="./player.html"><button id="play-btn">
+                <i class="fas fa-play"></i>
+                <p>Play</p>
+            </button></a>
+            <button id="info-btn">
+                <i class="fas fa-info-circle"></i>
+                <p>More Info</p>
+            </button>
+            <div id="maturity-rating">
+                <p>18+</p>
+            </div>
+        </section>     
+    </div>  
+    <section id="cards-section">
+        <div id="continue-cat">
+            <div class="heading"><p>Continue Watching for Guru</p></div>
+            <div class="card-wrapper">
+                <div class="card-container">
+                    <a href="./player.html">
+                        <div id="card-item-continue">
+                            <div class="img-wrapper">
+                                <img src="https://cdn.mos.cms.futurecdn.net/ynCnM2LzqzMzu6mjqtfVCV.jpg"  />
+                            </div>
+                            <div class="timeline">
+                                <div class="fill half"></div>
+                            </div>
+                        </div> </a>  
+                    </a>
+                </div>
+                <div class="card-container">
+                    <a href="./player.html">
+                        <div id="card-item-continue">
+                            <div class="img-wrapper">
+                                <img src="https://thebuzzpaper.com/wp-content/uploads/2019/11/better-call-saul.jpg"  />
+                            </div>
+                            <div class="timeline">
+                                <div class="fill half"></div>
+                            </div>
+                        </div>  
+                    </a>
+                         
+                </div>
+                <div class="card-container">
+                    <a href="./player.html">
+                        <div id="card-item-continue">
+                            <div class="img-wrapper">
+                                <img src="https://dark.netflix.io/share/global.png"  />
+                            </div>
+                            <div class="timeline">
+                                <div class="fill half"></div>
+                            </div>
+                        </div>
+                    </a>
+                           
+                </div>
+                <div class="card-container">
+                    <a href="./player.html">
+                        <div id="card-item-continue">
+                            <div class="img-wrapper">
+                                <img src="https://thetecheducation.com/wp-content/uploads/2020/04/1-16-1280x720-1.jpg"  />
+                            </div>
+                            <div class="timeline">
+                                <div class="fill half"></div>
+                            </div>
+                        </div>
+                    </a>
+                           
+                </div>
+                <div class="card-container">
+                    <a href="./player.html">
+                        <div id="card-item-continue">
+                            <div class="img-wrapper">
+                                <img src="https://occ-0-1068-1722.1.nflxso.net/dnm/api/v6/0DW6CdE4gYtYx8iy3aj8gs9WtXE/AAAABaufyb4NO6MLALtfV-9GedoNEtJc9V86rjc0VrkSOJm91GlrAb8aBCQHObpBJogCxx-hycVOA43wwRkh4q9YBRmezEx6-x2FGP0zQtRhEwSEsDwsB3pTDcnZ3S6w7A.jpg?r=b23"  />
+                                
+                            </div>
+                            <div class="timeline">
+                                <div class="fill half"></div>
+                            </div>
+                        </div>
+                    </a>
+                    
+                
+                </div>
+                <div class="card-container">
+                    <a href="./player.html">
+                        <div id="card-item-continue">
+                            <div class="img-wrapper">
+                                <img src="https://thebuzzpaper.com/wp-content/uploads/2020/05/Sherlock-Season-5-The-Buzz-Paper-1280x720.jpg"  />
+                            </div>
+                            <div class="timeline">
+                                <div class="fill half"></div>
+                            </div>
+                        </div>
+                    </a>
+                           
+                </div>
+                <div class="card-container">
+                    <a href="./player.html">
+                        <div id="card-item-continue">
+                            <div class="img-wrapper">
+                                <img src="https://miro.medium.com/max/2400/1*-h1F-dn6_B2yWKsT1vPsLg.jpeg"  />
+                            </div>
+                            <div class="timeline">
+                                <div class="fill half"></div>
+                            </div>
+                        </div>  
+                    </a>
+                         
+                </div>
+            </div>
+        </div>
+        <div id="popular">
+
+        </div>
+    </section>
+    <section id="cards-section">
+        <div id="Popular-cat">
+            <div class="heading"><p>Popular On Netflix</p></div>
+            <div class="card-wrapper">
+                <div class="card-container">
+                    <a href="./player.html">
+                        <div id="card-item-continue">
+                            <div class="img-wrapper">
+                                <img src="https://miro.medium.com/max/2560/1*u6EKEpnV3NIWxYzX7GzwsA.jpeg"  />
+                            </div>
+                        </div> 
+                    </a>
+                </div>
+                <div class="card-container">
+                    <a href="./player.html">
+                        <div id="card-item-continue">
+                            <div class="img-wrapper">
+                                <img src="https://occ-0-987-990.1.nflxso.net/dnm/api/v6/0DW6CdE4gYtYx8iy3aj8gs9WtXE/AAAABUq3WJGPP-96mfwFC7puR8iDC9V-aB3esjRmn60lMSs2dY8DDIHSchqf1HpgKe2Z6Vi4WvhwpzNXARExbhlJPQmflSMPyNPdndFcOh3UjN3Q5xQQwEPUX5jUTZTl8g.jpg?r=f89"  />
+                            </div>
+                        </div>
+                    </a>
+                </div>
+                <div class="card-container">
+                    <a href="./player.html">
+                        <div id="card-item-continue">
+                            <div class="img-wrapper">
+                                <img src="https://www.straitstimes.com/sites/default/files/styles/article_pictrure_780x520_/public/articles/2019/02/14/hzbreakingbad0214.jpg?itok=CHuq0i-P&timestamp=1550133049"  />
+                            </div>
+                        </div>
+                    </a>       
+                </div>
+                <div class="card-container">
+                    <a href="./player.html">
+                        <div id="card-item-continue">
+                            <div class="img-wrapper">
+                                <img src="https://i2.wp.com/metro.co.uk/wp-content/uploads/2019/03/SEC_57544369.jpg?quality=90&strip=all&zoom=1&resize=644%2C338&ssl=1"  />
+                            </div>
+                        </div>
+                    </a>       
+                </div>
+                <div class="card-container">
+                <a href="./player.html">
+                    <div id="card-item-continue">
+                        <div class="img-wrapper">
+                            <img src="https://wallpaperaccess.com/full/2703652.png"  />
+                            
+                        </div>
+                    </div>
+                </a>
+                           
+                </div>
+               <div class="card-container">
+                <a href="./player.html">
+                    <div id="card-item-continue">
+                        <div class="img-wrapper">
+                            <img src="https://i0.wp.com/freedownloadmves.com/wp-content/uploads/2020/02/rick-and-morty-banner.jpg?resize=640%2C376&ssl=1"  />
+                        </div>
+                    </div>
+                </a>
+                           
+                </div>
+                <div class="card-container">
+                    <a href="./player.html">
+                        <div id="card-item-continue">
+                            <div class="img-wrapper">
+                                <img src="https://incitingsparks.files.wordpress.com/2018/11/ac2.png"  />
+                            </div>
+                        </div>
+                    </a>       
+                </div>
+            </div>
+        </div>
+    </section></a>
+    <section id="cards-section">
+        <div id="trending-cat">
+            <div class="heading"><p>Trending Now</p></div>
+            <div class="card-wrapper">
+                <div class="card-container">
+                    <a href="./player.html">
+                        <div id="card-item-continue">
+                            <div class="img-wrapper">
+                                <img src="https://i2-prod.mirror.co.uk/incoming/article12220283.ece/ALTERNATES/s1200d/Suits-Season-7.jpg"  />
+                            </div>
+                        </div>
+                    </a>
+                           
+                </div>
+                <div class="card-container">
+                    <a href="./player.html">
+                        <div id="card-item-continue">
+                            <div class="img-wrapper">
+                                <img src="https://i.ytimg.com/vi/VNw9DAwp2Kk/maxresdefault.jpg"  />
+                            </div>
+                        </div>
+                    </a>
+                           
+                </div>
+                <div class="card-container">
+                    <a href="./player.html">
+                        <div id="card-item-continue">
+                            <div class="img-wrapper">
+                                <img src="https://encrypted-tbn0.gstatic.com/images?q=tbn%3AANd9GcSzvPpdXLE6mgEXz4Iw57iC3oWI_pfp_1r64g&usqp=CAU"  />
+                            </div>
+                        </div>
+                    </a>
+                           
+                </div>
+                <div class="card-container">
+                    <a href="./player.html">
+                        <div id="card-item-continue">
+                            <div class="img-wrapper">
+                                <img src="https://images.assettype.com/quintype/polltype/org-79/2017-07/9b3ffe90-3bd3-4a82-b702-5d2e91c596ca/584.jpg"/>
+                            </div>
+                        </div>
+                    </a>
+                           
+                </div>
+                <div class="card-container">
+                    <a href="./player.html">
+                        <div id="card-item-continue">
+                            <div class="img-wrapper">
+                                <img src="https://i2.wp.com/www.irishfilmcritic.com/wp-content/uploads/2019/11/Shutter-Island.jpg?fit=1392%2C696&ssl=1"  />
+                                
+                            </div>
+                        </div>
+                    </a>
+                           
+                </div>
+                <div class="card-container">
+                    <a href="./player.html">
+                        <div id="card-item-continue">
+                            <div class="img-wrapper">
+                                <img src="https://occ-0-1722-1723.1.nflxso.net/dnm/api/v6/X194eJsgWBDE2aQbaNdmCXGUP-Y/AAAABWysuAOiaAo_prHJ6hXgfVtcMKMyDfP0K2gbV6M6KTXsGolXPixmOM1xYGXBlH7UCduEnhQUtpJ6BFwDHDBR-M__ZyVs.jpg?r=6d7"  />
+                            </div>
+                        </div>
+                    </a>
+                           
+                </div>
+                <div class="card-container">
+                    <a href="./player.html">
+                        <div id="card-item-continue">
+                            <div class="img-wrapper">
+                                <img src="https://occ-0-1068-92.1.nflxso.net/dnm/api/v6/X194eJsgWBDE2aQbaNdmCXGUP-Y/AAAABRrJBZKpFnveIStzMmVxEMIaemHsx945I7SqdUgU3N4vc93VzaC_e0GYqnVw_1uPaWWSGO6TAYYIMHnPHiMJ6oGec009oHHQ0qcdUUSoUztzR3qQviNmz3q0AFBr9Q.jpg?r=eac"  />
+                            </div>
+                        </div> 
+                    </a>
+                          
+                </div>
+            </div>
+        </div>
+    </section></a>
+    <section id="cards-section">
+        <div id="Anime-cat">
+            <div class="heading"><p>Anime</p></div>
+            <div class="card-wrapper">
+                <div class="card-container">
+                    <a href="./player.html">
+                        <div id="card-item-continue">
+                            <div class="img-wrapper">
+                                <img src="https://miro.medium.com/max/900/0*6wqswqQDedpbZ7D2.jpg"  />
+                            </div>
+                        </div>
+                    </a>
+                           
+                </div>
+                <div class="card-container">
+                    <a href="./player.html">
+                        <div id="card-item-continue">
+                            <div class="img-wrapper">
+                                <img src="https://i.ytimg.com/vi/ttVoVr2F75k/maxresdefault.jpg"  />
+                            </div>
+                        </div>
+                    </a>
+                           
+                </div>
+                <div class="card-container">
+                    <a href="./player.html">
+                        <div id="card-item-continue">
+                            <div class="img-wrapper">
+                                <img src="https://newslagoon.com/wp-content/uploads/2020/07/Violet-Evergarden-Season-2.jpg"  />
+                            </div>
+                        </div>
+                    </a>
+                           
+                </div>
+                <div class="card-container">
+                    <a href="./player.html">
+                        <div id="card-item-continue">
+                            <div class="img-wrapper">
+                                <img src="https://images-na.ssl-images-amazon.com/images/I/912Ip2nA1uL._RI_.jpg"  />
+                            </div>
+                        </div>
+                    </a>
+                           
+                </div>
+                <div class="card-container">
+                    <a href="./player.html">
+                        <div id="card-item-continue">
+                            <div class="img-wrapper">
+                                <img src="https://www.madmanfilms.com.au/wp-content/uploads/2018/10/PancreasFB_OG.jpg"  />
+                                
+                            </div>
+                        </div>
+                    </a>
+                           
+                </div>
+                <div class="card-container">
+                    <a href="./player.html">
+                        <div id="card-item-continue">
+                            <div class="img-wrapper">
+                                <img src="https://encrypted-tbn0.gstatic.com/images?q=tbn%3AANd9GcSpRyaROhuECV67qpYHnEQi_wEMOvYTN3Uzwg&usqp=CAU"  />
+                            </div>
+                        </div>
+                    </a>
+                           
+                </div>
+                <div class="card-container">
+                    <a href="./player.html">
+                        <div id="card-item-continue">
+                            <div class="img-wrapper">
+                                <img src="https://i.pinimg.com/originals/2a/c6/12/2ac6124690132062165a409cb8ca8ac9.jpg"  />
+                            </div>
+                        </div>
+                    </a>
+                           
+                </div>
+            </div>
+        </div>
+    </section></a>
+</body>
+</html>

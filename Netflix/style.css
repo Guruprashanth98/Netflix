@@ -1,0 +1,135 @@
+html{
+    font-size: 16px;
+}
+@font-face{
+    src: url(./fonts/Netflix\ Sans\ Light.otf);
+    font-family: netflix;
+}
+@font-face{
+    src: url(./fonts/Netflix\ Sans\ Medium.otf);
+    font-family: netflix-med;
+}
+body{
+    margin: 0;
+    background-color: black;
+}
+header{
+    background-color: black;
+    height: 68px;
+    display: flex;
+    align-items: center;
+    justify-content: flex-start;
+    padding: 0 4%;
+    position: fixed;
+}
+a{
+    text-decoration: none;
+}
+#img{
+    width: 6%;
+    height: 37%;
+    padding: 0;
+    overflow: hidden;
+}
+#img > img{
+    width: 100%;
+    height: 100%;
+    margin: 0;
+    cursor: pointer;
+}
+#main{
+    width: 100%;
+    height: calc(100vh - 68px);
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+#profile-section{
+    margin: 26px 0;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+#profile-section > h1{
+    color: white;
+    font-family: netflix;
+    font-size: 3.8rem;
+    margin: 0;
+    text-align: center;
+    font-weight: 400;
+}
+#profile-cards{
+    margin: 0 auto;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+#icon-wrapper{
+    width: 177px;
+    height: 235px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    margin: 20px;
+    cursor: pointer;
+}
+#icon-wrapper > img{
+    width: 100%;
+    
+}
+#cover{
+    width: 177px;
+    height: 177px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+#cover > i{
+    color: #808080;
+    font-size: 110px;
+    
+}
+#icon-wrapper p{
+    color: #636363;
+    font-size: 1.5rem;
+    font-family: netflix;
+    font-weight: 400;
+    margin: 14px 0;
+}
+#manage{
+    border: 1px solid #656565;
+    display: inline-block;
+    text-align: center;
+    padding:  10px 31px;
+    cursor: pointer;
+    margin-top: 40px;
+}
+#manage > h3{
+    color: #7a7a7a;
+    font-size: 1.25rem;
+    font-family: netflix-med;
+    font-weight: 500;
+    text-transform: uppercase;
+    margin: 0;
+}
+#icon-wrapper:hover img{
+    border: 4px solid white;
+    box-sizing: border-box;
+    width: 100%;
+}
+#icon-wrapper:hover p{
+    color: white;
+}
+#icon-wrapper:hover #cover{
+    background-color: white;
+}
+#manage:hover{
+    border-color: white;
+}
+#manage:hover h3{
+    color: white;
+}
